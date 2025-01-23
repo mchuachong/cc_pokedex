@@ -60,8 +60,12 @@ const noPoke = () => {
 }
 
 
-btn.addEventListener ("click", search);
+btn.addEventListener ("click", e=>{
+  e.preventDefault();
+  search();
+});
 document.addEventListener('keypress', e=>{
     if (e.key === 'Enter') {
+      e.preventDefault();
       search();
     }});
