@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,90&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="doto">
+  <header><h1>Pokedex</h1></header>
+  <div id="flex_box">
+    <div id="dex-top"></div>
+    <div id="dex-bottom">
+      <div id="panel_left">
+        <div id="left-content">
+          <div id="nameid">
+            <div id="pokemon-name">Pokemon</div>
+            <div id="pokemon-id"></div>
+          </div>
+          <div id="specs">
+            <div id="weight">weight:</div>
+            <div id ="height">height:</div>
+          </div>
+          <div id="spritebox"><div id="sprite-content"></div></div>
+          <div id="types"></div>
+          
+          <form id="search-box">
+            <input type="text" id="search-input" required>
+            </input>
+            <button id="search-button">search
+            </button>
+            </form>
+        </div>
+      </div>
+      <div id="ridge"></div>
+      <div id="panel_right">
+        <div id="right-content">
+          <table id="stats">
+            <tr><td>hp</td><td id="hp"></td>
+            <tr><td>attack</td><td id="attack"></td>
+            <tr><td>defense</td><td id="defense"></td>
+            <tr><td>special-attack</td><td id="special-attack"></td>
+            <tr><td>special-defense</td><td id="special-defense"></td>
+            <tr><td>speed</td><td id="speed"></td>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<script src="./script.js"></script>
+</body>
+</html>
