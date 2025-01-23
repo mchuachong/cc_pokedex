@@ -1,4 +1,3 @@
-
 const input = document.querySelector("#search-input");
 const btn = document.getElementById("search-button");
 const pListUrl="https://pokeapi-proxy.freecodecamp.rocks/api/pokemon";
